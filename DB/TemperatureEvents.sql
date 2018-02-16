@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[TemperatureEvents]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+	[DeviceId] NVARCHAR(32) NOT NULL,
+	[Timestamp] DATETIMEOFFSET NOT NULL,
+	[Temperature] FLOAT NOT NULL
+)
